@@ -1,0 +1,14 @@
+{
+   "ColorDatas":[
+      "Blue",
+      "Red",
+      "Yello",
+      "Green"
+   ],
+   "ShapeDatas":[
+      "Circle",
+      "Square",
+      "Rectangle",
+      "Ellipse"
+   ]
+}
