@@ -1,0 +1,459 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1692608320779494, "dur": 1982631, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608320779726, "dur": 6713, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608320786442, "dur": 46691, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608320833136, "dur": 610962, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608321444099, "dur": 1305406, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608322749507, "dur": 12618, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608322762759, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1692608321291045, "dur": 134576, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1692608321291989, "dur": 39692, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1692608321411128, "dur": 4003, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1692608321415134, "dur": 10444, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1692608321415813, "dur": 9091, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1692608321431449, "dur": 1463, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1692608321430609, "dur": 2337, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608322763887, "dur": 162, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1692608321490732, "dur":1104, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608321491846, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1692608321491928, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1692608321491952, "dur":500, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1692608321492483, "dur":448, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608321492931, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722439, "dur":184, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722623, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722636, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722639, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722653, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722655, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722661, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722663, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722670, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722672, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722678, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722680, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722686, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722688, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722695, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722697, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722703, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722740, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322722743, "dur":913, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1692608321492819, "dur":146, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321492965, "dur":3404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321496369, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1692608321496698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321497382, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1692608321501536, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1692608321501656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321501662, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1692608321505829, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1692608321505991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321506013, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1692608321511291, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1692608321511454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321511465, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1692608321513383, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1692608321513523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321513532, "dur":15898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1692608321529501, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1692608321529650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321529656, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1692608321532849, "dur":69783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321602643, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321602656, "dur":11679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321614352, "dur":30980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321645336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321645342, "dur":8743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321654104, "dur":27408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321681516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321681522, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321682410, "dur":53664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321736081, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321736093, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321736952, "dur":47010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321783967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321783975, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321784785, "dur":49945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321834734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321834741, "dur":9879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321844636, "dur":31832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321876477, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321876490, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321878151, "dur":66195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321944350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321944356, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321944985, "dur":35326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321980317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608321980327, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608321981393, "dur":58186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322039598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322039608, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322040408, "dur":68371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322108784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322108792, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322109986, "dur":103559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322213552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322213561, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322214651, "dur":95995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322310652, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322310661, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322311517, "dur":214325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322525851, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322525863, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692608322527343, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1692608322527362, "dur":117, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322527934, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1692608322529003, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692608322529022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322529027, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692608322530103, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692608322530117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322530121, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692608322530696, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1692608322530778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322530782, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1692608322531475, "dur":1030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1692608322532510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322532516, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1692608322533302, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692608322533319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322533323, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1692608322533904, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1692608322533917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322533920, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1692608322534376, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692608322534420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322534425, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1692608322535102, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1692608322535115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322535119, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1692608322535596, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692608322535673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692608322535677, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692608322536145, "dur":186293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321492806, "dur":151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321492959, "dur":3361, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321496330, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1692608321496334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321496905, "dur":188, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1692608321497095, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1692608321497116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321497216, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1692608321499552, "dur":15675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1692608321515245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321515253, "dur":14757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1692608321530066, "dur":102971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321633042, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321633072, "dur":21004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321654147, "dur":26251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321680403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321680408, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321681324, "dur":89092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321770421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321770428, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321771976, "dur":28945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321800925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321800930, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321801952, "dur":25731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321827687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321827695, "dur":19517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321847232, "dur":52271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321899506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321899512, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321901793, "dur":48583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321950384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321950425, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321951267, "dur":30483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321981754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608321981762, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608321982822, "dur":153621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322136448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608322136456, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322137906, "dur":225025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322362935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608322362942, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322363814, "dur":150356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322514175, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608322514185, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322515874, "dur":116002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322631880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692608322631887, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692608322632518, "dur":89911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321493031, "dur":15, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321493046, "dur":3320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321496367, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1692608321496905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321497325, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1692608321500593, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1692608321500759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321500790, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1692608321503909, "dur":13687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1692608321517619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321517623, "dur":12830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1692608321530513, "dur":55050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall.exe" }}
+,{ "pid":12345, "tid":3, "ts":1692608321585567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321585570, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall.exe" }}
+,{ "pid":12345, "tid":3, "ts":1692608321587963, "dur":38097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321626067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321626074, "dur":28387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321654475, "dur":26175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321680654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321680660, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321681526, "dur":42057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321723590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321723598, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321724232, "dur":38133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321762371, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321762380, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321763173, "dur":71207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321834386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321834394, "dur":9899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321844322, "dur":51991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321896322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321896332, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321898666, "dur":74973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321973644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608321973653, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608321976185, "dur":96079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322072271, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608322072280, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322073103, "dur":57389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322130502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608322130514, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322131299, "dur":152669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322283972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608322283977, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322284739, "dur":70181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322354925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608322354957, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322356039, "dur":247161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322603204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692608322603209, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692608322605359, "dur":117067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321492909, "dur":63, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321492972, "dur":3390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321496362, "dur":17571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1692608321513937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321513964, "dur":15921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1692608321529937, "dur":33920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321563861, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321564068, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321565167, "dur":48314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321613488, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321613497, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321614625, "dur":121508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321736137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321736144, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321736956, "dur":50062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321787022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321787028, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321787584, "dur":39131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321826722, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321826733, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321829083, "dur":32505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321861595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321861605, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321862287, "dur":67160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321929450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608321929457, "dur":6811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608321936284, "dur":124489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322060780, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608322060790, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322065773, "dur":140025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322205804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608322205812, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322206655, "dur":109988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322316649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608322316656, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322317583, "dur":230440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322548028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692608322548035, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692608322550658, "dur":171765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321493172, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321493187, "dur":3137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321496330, "dur":59286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1692608321555620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321555774, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1692608321556469, "dur":28497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321584972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321585168, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321585765, "dur":46836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321632605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321632610, "dur":21459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321654091, "dur":30174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321684291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321684298, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321684965, "dur":220130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321905107, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321905123, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321906924, "dur":65624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321972555, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608321972582, "dur":6719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608321979327, "dur":58396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322037731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608322037741, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322038913, "dur":61502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322100421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608322100429, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322102500, "dur":254168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322356672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608322356680, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322357944, "dur":55025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322412975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608322412982, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322415247, "dur":57163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322472416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608322472425, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322477231, "dur":197827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322675061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692608322675067, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692608322675751, "dur":46673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321493309, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321493309, "dur":3058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321496367, "dur":18791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1692608321515163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321515170, "dur":14892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1692608321530274, "dur":189038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321719317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321719324, "dur":41465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321760885, "dur":119504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321880396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321880406, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321881522, "dur":31890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321913418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321913428, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321914116, "dur":29884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321944006, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321944015, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321944779, "dur":28870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321973654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608321973661, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608321974665, "dur":77443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322052114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608322052122, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322052811, "dur":30453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322083270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608322083278, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322084084, "dur":77496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322161600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608322161606, "dur":7261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322168880, "dur":192153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322361039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608322361047, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322362387, "dur":169313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322531703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692608322531710, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692608322537183, "dur":185241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321493421, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321493422, "dur":2946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321496369, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1692608321496929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321497332, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1692608321500594, "dur":16658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1692608321517255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321517261, "dur":13045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1692608321530355, "dur":41812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1692608321572201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321572208, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1692608321574221, "dur":51849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321626072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321626076, "dur":28592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321654683, "dur":118104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321772790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321772812, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321773489, "dur":55511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321829006, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321829015, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321830650, "dur":28612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321859268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321859278, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321861632, "dur":37444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321899079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321899087, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321902265, "dur":32907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321936187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321936197, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321937872, "dur":35903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321973779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608321973784, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608321974670, "dur":48798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322023569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322023578, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322024356, "dur":36477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322060836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322060841, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322061549, "dur":54748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322116301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322116307, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322117134, "dur":101221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322218360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322218366, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322219294, "dur":63446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322282746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322282753, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322283634, "dur":122366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322406006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322406017, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322406754, "dur":179590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322586349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692608322586356, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692608322587204, "dur":135221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321493640, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321493641, "dur":2720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321496361, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1692608321496635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321497419, "dur":4583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1692608321502055, "dur":1230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1692608321503291, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321503601, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1692608321506320, "dur":11242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1692608321517612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321517616, "dur":13583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1692608321531248, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1692608321531353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321531471, "dur":30579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1692608321562121, "dur":33639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321595766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321595809, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321596469, "dur":45471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321641944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321641949, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321642569, "dur":37828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321680402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321680408, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321681366, "dur":28276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321709647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321709656, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321711375, "dur":217556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321928938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321928947, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321929749, "dur":52029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321981782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608321981787, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608321983655, "dur":47133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322030857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608322030867, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322031769, "dur":46103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322077911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608322077919, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322079181, "dur":37055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322116243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608322116251, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322117055, "dur":313770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322430830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608322430838, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322433692, "dur":285709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/TrowingABall_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322719404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692608322719409, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/TrowingABall_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692608322722382, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1692608322722386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692608322724739, "dur":1514, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1692608322764084, "dur": 479, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1692608322762745, "dur": 1832, "ph": "X", "name": "Write chrome-trace events", "args": {} },
